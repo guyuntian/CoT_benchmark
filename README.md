@@ -26,4 +26,4 @@ The training instruction is in [TRAIN.md](assets/TRAIN.md).
 The testing instruction is in [TEST.md](assets/TEST.md).
 
 ### License
-This project is under the CC-BY-NC 4.0 license. See [LICENSE](LICENSE) for details.
+This project is under the MIT license. See [LICENSE](LICENSE) for details.
