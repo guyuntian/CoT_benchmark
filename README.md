@@ -8,7 +8,7 @@ This repository is the official implementation of [“Towards Revealing the Myst
 ```
 @misc{feng2023revealing,
       title={Towards Revealing the Mystery behind Chain of Thought: a Theoretical Perspective}, 
-      author={Guhao Feng and Yuntian Gu and Bohang Zhang and Haotian Ye and Di He and Liwei Wang},
+      author={Guhao Feng and Bohang Zhang and Yuntian Gu and Haotian Ye and Di He and Liwei Wang},
       year={2023},
       eprint={2305.15408},
       archivePrefix={arXiv},
