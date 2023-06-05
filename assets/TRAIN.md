@@ -21,7 +21,7 @@ torchrun --nproc_per_node=4 train.py\
 ```
 - Here `folder` should be one of the followings: arithmetic, equation, LIS or ED.
 - `maxdata` always equals to `maxlen` in direct dataset.
-- The effective batch size is 128 (`batch_size` per gpu) * 3 (gpus per node) = 512.
+- The effective batch size is 128 (`batch_size` per gpu) * 4 (gpus per node) = 512.
 
 The numbers of MAXLEN, VOCAB_SIZE and NUM_RANGE are listed in the following table.
 
@@ -33,8 +33,8 @@ The numbers of MAXLEN, VOCAB_SIZE and NUM_RANGE are listed in the following tabl
 | Equation_len3  | 46     | 22 | 11 |
 | Equation_len4  | 73     | 22 | 11 |
 | Equation_len5  | 106     | 22 | 11 |
-| LIS_len50  | 54     | 203 | 200 |
-| LIS_len80  | 84     | 233 | 230 |
+| LIS_len50  | 54     | 253 | 250 |
+| LIS_len80  | 84     | 253 | 250 |
 | LIS_len100  | 104     | 253 | 250 |
 | ED_len12  | 31     | 91 | 60 |
 | ED_len16  | 39     | 91 | 60 |
@@ -73,12 +73,12 @@ The numbers of MAXLEN, VOCAB_SIZE and NUM_RANGE are listed in the following tabl
 | Equation_len3  | 91     | 22 | 11 |
 | Equation_len4  | 181     | 22 | 11 |
 | Equation_len5  | 316     | 22 | 11 |
-| LIS_len50  | 105     | 203 | 200 |
-| LIS_len80  | 165     | 233 | 230 |
+| LIS_len50  | 105     | 253 | 250 |
+| LIS_len80  | 165     | 253 | 250 |
 | LIS_len100  | 205     | 253 | 250 |
 | ED_len12  | 212     | 91 | 60 |
-| ED_len14  | 344     | 91 | 60 |
-| ED_len16  | 508     | 91 | 60 |
+| ED_len16  | 344     | 91 | 60 |
+| ED_len20  | 508     | 91 | 60 |
 
 To train minGPT on CoT dataset with [alibi relative positional embeddings](https://arxiv.org/abs/2108.12409), run the following on 1 node with 4 GPUs:
 ```

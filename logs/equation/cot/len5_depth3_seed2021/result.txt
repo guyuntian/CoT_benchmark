@@ -1,0 +1,5 @@
+epoch:19, test acc:0.011020000092685223
+epoch:39, test acc:0.09096000343561172
+epoch:59, test acc:0.9999600052833557
+epoch:79, test acc:0.9999799728393555
+epoch:99, test acc:1.0

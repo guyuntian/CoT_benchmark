@@ -3,7 +3,7 @@
   <img src="assets/result.png", width="640">
 </p>
 
-This repository is the official implementation of [“Towards Revealing the Mystery behind Chain of Thought: a Theoretical Perspective”](https://arxiv.org/abs/2305.15408), based on the implementation of [minGPT](https://github.com/karpathy/minGPT) in [PyTorch](https://github.com/pytorch/pytorch).
+This repository is the official implementation of the paper [“Towards Revealing the Mystery behind Chain of Thought: a Theoretical Perspective”](https://arxiv.org/abs/2305.15408), based on the implementation of [minGPT](https://github.com/karpathy/minGPT) in [PyTorch](https://github.com/pytorch/pytorch).
 
 ```
 @misc{feng2023revealing,
@@ -25,5 +25,9 @@ The training instruction is in [TRAIN.md](assets/TRAIN.md).
 ### Testing
 The testing instruction is in [TEST.md](assets/TEST.md).
 
+### Training Logs
+To faciliate future research, we upload all training logs in the `logs` folder.
+
 ### License
 This project is under the MIT license. See [LICENSE](LICENSE) for details.
+

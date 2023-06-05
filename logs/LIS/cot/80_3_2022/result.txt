@@ -1,0 +1,10 @@
+epoch:19, train acc:0.9786369800567627
+epoch:19, test acc:0.9749500155448914
+epoch:39, train acc:0.9958760142326355
+epoch:39, test acc:0.9926000237464905
+epoch:59, train acc:0.9987789988517761
+epoch:59, test acc:0.9952899813652039
+epoch:79, train acc:0.999413013458252
+epoch:79, test acc:0.9958699941635132
+epoch:99, train acc:1.0
+epoch:99, test acc:0.997439980506897

@@ -31,7 +31,7 @@ python3 LIS/data.py \
     --test_size 1e5\
     --number_range ${NUM_RANGE}
 ```
-- In our experiment, we set `number_range` to `length` + 150.
+- In our experiment, we set `number_range` to 250.
 
 Script for edit distance dataset:
 ```
