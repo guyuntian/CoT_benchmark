@@ -1,7 +1,7 @@
 ### Testing
 To test minGPT performance on direct dataset, run the following on 1 node with 4 GPUs:
 ```
-torchrun --nproc_per_node=4 train.py\
+torchrun --nproc_per_node=4 test.py\
  --file ${DATA_DIR}\
  --folder ${TASK}\
  --maxlen ${MAXLEN}\
@@ -18,7 +18,7 @@ The number of MAXLEN, MAXDATA, VOCAB_SIZE and NUM_RANGE should be consistent wit
 
 To test minGPT performance on CoT dataset, run the following on 1 node with 4 GPUs:
 ```
-torchrun --nproc_per_node=4 train.py\
+torchrun --nproc_per_node=4 test.py\
  --file ${DATA_DIR}\
  --folder ${TASK}\
  --maxlen ${MAXLEN}\
@@ -35,7 +35,7 @@ torchrun --nproc_per_node=4 train.py\
 
 To test minGPT on CoT dataset with alibi, run the following on 1 node with 4 GPUs:
 ```
-torchrun --nproc_per_node=4 train.py\
+torchrun --nproc_per_node=4 test.py\
  --file ${DATA_DIR}\
  --folder arithmetic\
  --maxlen 1000\
